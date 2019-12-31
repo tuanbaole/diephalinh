@@ -1,0 +1,212 @@
+23 Tháng Mười Hai 2019 10:04:06 	 PHP 7.3.12Array
+(
+    [date] => 23 Tháng Mười Hai, 2019
+    [time] => 10:02 sáng
+    [serial-number] => 
+    [remote-ip] => 42.113.84.174
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+    [url] => https://diephalinh.com/lien-he
+    [post-id] => 327
+    [post-name] => lien-he
+    [post-title] => LIÊN HỆ
+    [post-url] => https://diephalinh.com/lien-he
+    [post-author] => diephalinh
+    [post-author-email] => letuanbao1993@gmail.com
+    [site-title] => Diep Ha Linh
+    [site-description] => TRUNG TÂM NGHIÊN CỨU VÀ ỨNG DỤNG THUỐC DÂN TỘC
+    [site-url] => https://diephalinh.com
+    [site-admin-email] => letuanbao1993@gmail.com
+    [user-login] => 
+    [user-email] => 
+    [user-url] => 
+    [user-first-name] => 
+    [user-last-name] => 
+    [user-nickname] => 
+    [user-display-name] => 
+    [hovaten] => Trong Dinh
+    [sdt] => 0363153993
+    [noidung] => 
+    [ERROR_MSG] => String could not be parsed as XML
+    [TRACE_STK] => #0 /home/diephali/public_html/wp-content/plugins/cf7-google-sheets-connector/lib/asimlqt/php-google-spreadsheet-client/src/Google/Spreadsheet/SpreadsheetFeed.php(44): SimpleXMLElement->__construct('')
+#1 /home/diephali/public_html/wp-content/plugins/cf7-google-sheets-connector/lib/asimlqt/php-google-spreadsheet-client/src/Google/Spreadsheet/SpreadsheetService.php(37): Google\Spreadsheet\SpreadsheetFeed->__construct(false)
+#2 /home/diephali/public_html/wp-content/plugins/cf7-google-sheets-connector/lib/google-sheets.php(76): Google\Spreadsheet\SpreadsheetService->getSpreadsheets()
+#3 /home/diephali/public_html/wp-content/plugins/cf7-google-sheets-connector/includes/class-gs-service.php(175): cf7gsc_googlesheet->add_row(Array)
+#4 /home/diephali/public_html/wp-includes/class-wp-hook.php(288): Gs_Connector_Service->cf7_save_to_google_sheets(Object(WPCF7_ContactForm))
+#5 /home/diephali/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#6 /home/diephali/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home/diephali/public_html/wp-content/plugins/contact-form-7/includes/submission.php(214): do_action('wpcf7_mail_sent', Object(WPCF7_ContactForm))
+#8 /home/diephali/public_html/wp-content/plugins/contact-form-7/includes/submission.php(34): WPCF7_Submission->submit()
+#9 /home/diephali/public_html/wp-content/plugins/contact-form-7/includes/contact-form.php(740): WPCF7_Submission::get_instance(Object(WPCF7_ContactForm), Array)
+#10 /home/diephali/public_html/wp-content/plugins/contact-form-7/includes/rest-api.php(285): WPCF7_ContactForm->submit()
+#11 /home/diephali/public_html/wp-includes/rest-api/class-wp-rest-server.php(946): wpcf7_rest_create_feedback(Object(WP_REST_Request))
+#12 /home/diephali/public_html/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#13 /home/diephali/public_html/wp-includes/rest-api.php(305): WP_REST_Server->serve_request('/contact-form-7...')
+#14 /home/diephali/public_html/wp-includes/class-wp-hook.php(288): rest_api_loaded(Object(WP))
+#15 /home/diephali/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#16 /home/diephali/public_html/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#17 /home/diephali/public_html/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#18 /home/diephali/public_html/wp-includes/class-wp.php(729): WP->parse_request('')
+#19 /home/diephali/public_html/wp-includes/functions.php(1255): WP->main('')
+#20 /home/diephali/public_html/wp-blog-header.php(16): wp()
+#21 /home/diephali/public_html/index.php(17): require('/home/diephali/...')
+#22 {main}
+)
+23 Tháng Mười Hai 2019 10:04:12 	 PHP 7.3.12Array
+(
+    [date] => 23 Tháng Mười Hai, 2019
+    [time] => 10:04 sáng
+    [serial-number] => 
+    [remote-ip] => 42.113.84.174
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+    [url] => https://diephalinh.com/lien-he
+    [post-id] => 327
+    [post-name] => lien-he
+    [post-title] => LIÊN HỆ
+    [post-url] => https://diephalinh.com/lien-he
+    [post-author] => diephalinh
+    [post-author-email] => letuanbao1993@gmail.com
+    [site-title] => Diep Ha Linh
+    [site-description] => TRUNG TÂM NGHIÊN CỨU VÀ ỨNG DỤNG THUỐC DÂN TỘC
+    [site-url] => https://diephalinh.com
+    [site-admin-email] => letuanbao1993@gmail.com
+    [user-login] => 
+    [user-email] => 
+    [user-url] => 
+    [user-first-name] => 
+    [user-last-name] => 
+    [user-nickname] => 
+    [user-display-name] => 
+    [hovaten] => Trong Dinh
+    [sdt] => 0363153993
+    [noidung] => 
+    [ERROR_MSG] => Error in Google Request
+    [TRACE_STK] => #0 /home/diephali/public_html/wp-content/plugins/cf7-google-sheets-connector/lib/asimlqt/php-google-spreadsheet-client/src/Google/Spreadsheet/DefaultServiceRequest.php(146): Google\Spreadsheet\DefaultServiceRequest->execute(Resource id #935)
+#1 /home/diephali/public_html/wp-content/plugins/cf7-google-sheets-connector/lib/asimlqt/php-google-spreadsheet-client/src/Google/Spreadsheet/ListFeed.php(78): Google\Spreadsheet\DefaultServiceRequest->post('https://spreads...', '<entry xmlns="h...')
+#2 /home/diephali/public_html/wp-content/plugins/cf7-google-sheets-connector/lib/google-sheets.php(83): Google\Spreadsheet\ListFeed->insert(Array)
+#3 /home/diephali/public_html/wp-content/plugins/cf7-google-sheets-connector/includes/class-gs-service.php(175): cf7gsc_googlesheet->add_row(Array)
+#4 /home/diephali/public_html/wp-includes/class-wp-hook.php(288): Gs_Connector_Service->cf7_save_to_google_sheets(Object(WPCF7_ContactForm))
+#5 /home/diephali/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#6 /home/diephali/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home/diephali/public_html/wp-content/plugins/contact-form-7/includes/submission.php(214): do_action('wpcf7_mail_sent', Object(WPCF7_ContactForm))
+#8 /home/diephali/public_html/wp-content/plugins/contact-form-7/includes/submission.php(34): WPCF7_Submission->submit()
+#9 /home/diephali/public_html/wp-content/plugins/contact-form-7/includes/contact-form.php(740): WPCF7_Submission::get_instance(Object(WPCF7_ContactForm), Array)
+#10 /home/diephali/public_html/wp-content/plugins/contact-form-7/includes/rest-api.php(285): WPCF7_ContactForm->submit()
+#11 /home/diephali/public_html/wp-includes/rest-api/class-wp-rest-server.php(946): wpcf7_rest_create_feedback(Object(WP_REST_Request))
+#12 /home/diephali/public_html/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#13 /home/diephali/public_html/wp-includes/rest-api.php(305): WP_REST_Server->serve_request('/contact-form-7...')
+#14 /home/diephali/public_html/wp-includes/class-wp-hook.php(288): rest_api_loaded(Object(WP))
+#15 /home/diephali/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#16 /home/diephali/public_html/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#17 /home/diephali/public_html/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#18 /home/diephali/public_html/wp-includes/class-wp.php(729): WP->parse_request('')
+#19 /home/diephali/public_html/wp-includes/functions.php(1255): WP->main('')
+#20 /home/diephali/public_html/wp-blog-header.php(16): wp()
+#21 /home/diephali/public_html/index.php(17): require('/home/diephali/...')
+#22 {main}
+)
+23 Tháng Mười Hai 2019 10:04:52 	 PHP 7.3.12Array
+(
+    [date] => 23 Tháng Mười Hai, 2019
+    [time] => 10:04 sáng
+    [serial-number] => 
+    [remote-ip] => 42.113.84.174
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+    [url] => https://diephalinh.com/lien-he
+    [post-id] => 327
+    [post-name] => lien-he
+    [post-title] => LIÊN HỆ
+    [post-url] => https://diephalinh.com/lien-he
+    [post-author] => diephalinh
+    [post-author-email] => letuanbao1993@gmail.com
+    [site-title] => Diep Ha Linh
+    [site-description] => TRUNG TÂM NGHIÊN CỨU VÀ ỨNG DỤNG THUỐC DÂN TỘC
+    [site-url] => https://diephalinh.com
+    [site-admin-email] => letuanbao1993@gmail.com
+    [user-login] => 
+    [user-email] => 
+    [user-url] => 
+    [user-first-name] => 
+    [user-last-name] => 
+    [user-nickname] => 
+    [user-display-name] => 
+    [hovaten] => Trong Dinh
+    [sdt] => 0363153993
+    [noidung] => 
+    [ERROR_MSG] => Error in Google Request
+    [TRACE_STK] => #0 /home/diephali/public_html/wp-content/plugins/cf7-google-sheets-connector/lib/asimlqt/php-google-spreadsheet-client/src/Google/Spreadsheet/DefaultServiceRequest.php(146): Google\Spreadsheet\DefaultServiceRequest->execute(Resource id #935)
+#1 /home/diephali/public_html/wp-content/plugins/cf7-google-sheets-connector/lib/asimlqt/php-google-spreadsheet-client/src/Google/Spreadsheet/ListFeed.php(78): Google\Spreadsheet\DefaultServiceRequest->post('https://spreads...', '<entry xmlns="h...')
+#2 /home/diephali/public_html/wp-content/plugins/cf7-google-sheets-connector/lib/google-sheets.php(83): Google\Spreadsheet\ListFeed->insert(Array)
+#3 /home/diephali/public_html/wp-content/plugins/cf7-google-sheets-connector/includes/class-gs-service.php(175): cf7gsc_googlesheet->add_row(Array)
+#4 /home/diephali/public_html/wp-includes/class-wp-hook.php(288): Gs_Connector_Service->cf7_save_to_google_sheets(Object(WPCF7_ContactForm))
+#5 /home/diephali/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#6 /home/diephali/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home/diephali/public_html/wp-content/plugins/contact-form-7/includes/submission.php(214): do_action('wpcf7_mail_sent', Object(WPCF7_ContactForm))
+#8 /home/diephali/public_html/wp-content/plugins/contact-form-7/includes/submission.php(34): WPCF7_Submission->submit()
+#9 /home/diephali/public_html/wp-content/plugins/contact-form-7/includes/contact-form.php(740): WPCF7_Submission::get_instance(Object(WPCF7_ContactForm), Array)
+#10 /home/diephali/public_html/wp-content/plugins/contact-form-7/includes/rest-api.php(285): WPCF7_ContactForm->submit()
+#11 /home/diephali/public_html/wp-includes/rest-api/class-wp-rest-server.php(946): wpcf7_rest_create_feedback(Object(WP_REST_Request))
+#12 /home/diephali/public_html/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#13 /home/diephali/public_html/wp-includes/rest-api.php(305): WP_REST_Server->serve_request('/contact-form-7...')
+#14 /home/diephali/public_html/wp-includes/class-wp-hook.php(288): rest_api_loaded(Object(WP))
+#15 /home/diephali/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#16 /home/diephali/public_html/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#17 /home/diephali/public_html/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#18 /home/diephali/public_html/wp-includes/class-wp.php(729): WP->parse_request('')
+#19 /home/diephali/public_html/wp-includes/functions.php(1255): WP->main('')
+#20 /home/diephali/public_html/wp-blog-header.php(16): wp()
+#21 /home/diephali/public_html/index.php(17): require('/home/diephali/...')
+#22 {main}
+)
+23 Tháng Mười Hai 2019 10:05:30 	 PHP 7.3.12Array
+(
+    [date] => 23 Tháng Mười Hai, 2019
+    [time] => 10:05 sáng
+    [serial-number] => 
+    [remote-ip] => 42.113.84.174
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+    [url] => https://diephalinh.com/lien-he
+    [post-id] => 327
+    [post-name] => lien-he
+    [post-title] => LIÊN HỆ
+    [post-url] => https://diephalinh.com/lien-he
+    [post-author] => diephalinh
+    [post-author-email] => letuanbao1993@gmail.com
+    [site-title] => Diep Ha Linh
+    [site-description] => TRUNG TÂM NGHIÊN CỨU VÀ ỨNG DỤNG THUỐC DÂN TỘC
+    [site-url] => https://diephalinh.com
+    [site-admin-email] => letuanbao1993@gmail.com
+    [user-login] => 
+    [user-email] => 
+    [user-url] => 
+    [user-first-name] => 
+    [user-last-name] => 
+    [user-nickname] => 
+    [user-display-name] => 
+    [hovaten] => Trong Dinh
+    [sdt] => 0363153993
+    [noidung] => 
+    [ERROR_MSG] => Error in Google Request
+    [TRACE_STK] => #0 /home/diephali/public_html/wp-content/plugins/cf7-google-sheets-connector/lib/asimlqt/php-google-spreadsheet-client/src/Google/Spreadsheet/DefaultServiceRequest.php(146): Google\Spreadsheet\DefaultServiceRequest->execute(Resource id #934)
+#1 /home/diephali/public_html/wp-content/plugins/cf7-google-sheets-connector/lib/asimlqt/php-google-spreadsheet-client/src/Google/Spreadsheet/ListFeed.php(78): Google\Spreadsheet\DefaultServiceRequest->post('https://spreads...', '<entry xmlns="h...')
+#2 /home/diephali/public_html/wp-content/plugins/cf7-google-sheets-connector/lib/google-sheets.php(83): Google\Spreadsheet\ListFeed->insert(Array)
+#3 /home/diephali/public_html/wp-content/plugins/cf7-google-sheets-connector/includes/class-gs-service.php(175): cf7gsc_googlesheet->add_row(Array)
+#4 /home/diephali/public_html/wp-includes/class-wp-hook.php(288): Gs_Connector_Service->cf7_save_to_google_sheets(Object(WPCF7_ContactForm))
+#5 /home/diephali/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#6 /home/diephali/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home/diephali/public_html/wp-content/plugins/contact-form-7/includes/submission.php(214): do_action('wpcf7_mail_sent', Object(WPCF7_ContactForm))
+#8 /home/diephali/public_html/wp-content/plugins/contact-form-7/includes/submission.php(34): WPCF7_Submission->submit()
+#9 /home/diephali/public_html/wp-content/plugins/contact-form-7/includes/contact-form.php(740): WPCF7_Submission::get_instance(Object(WPCF7_ContactForm), Array)
+#10 /home/diephali/public_html/wp-content/plugins/contact-form-7/includes/rest-api.php(285): WPCF7_ContactForm->submit()
+#11 /home/diephali/public_html/wp-includes/rest-api/class-wp-rest-server.php(946): wpcf7_rest_create_feedback(Object(WP_REST_Request))
+#12 /home/diephali/public_html/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#13 /home/diephali/public_html/wp-includes/rest-api.php(305): WP_REST_Server->serve_request('/contact-form-7...')
+#14 /home/diephali/public_html/wp-includes/class-wp-hook.php(288): rest_api_loaded(Object(WP))
+#15 /home/diephali/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#16 /home/diephali/public_html/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#17 /home/diephali/public_html/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#18 /home/diephali/public_html/wp-includes/class-wp.php(729): WP->parse_request('')
+#19 /home/diephali/public_html/wp-includes/functions.php(1255): WP->main('')
+#20 /home/diephali/public_html/wp-blog-header.php(16): wp()
+#21 /home/diephali/public_html/index.php(17): require('/home/diephali/...')
+#22 {main}
+)
